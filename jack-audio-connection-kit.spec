@@ -1,7 +1,7 @@
 Summary:	The JACK Audio Connection Kit
 Name:		jack-audio-connection-kit
 Version:	0.124.1
-Release:	2
+Release:	3
 License:	LGPL v2.1+ (libjack), GPL v2+ (the rest)
 Group:		Daemons
 Source0:	http://jackaudio.org/downloads/%{name}-%{version}.tar.gz
@@ -20,6 +20,7 @@ BuildRequires:	libsndfile-devel
 BuildRequires:	libtool
 BuildRequires:	pkg-config
 BuildRequires:	readline-devel
+BuildRequires:	zita-alsa-pcmi-devel
 BuildRequires:	zita-resampler-devel
 BuildConflicts:	jack-libs
 Requires:	%{name}-libs = %{version}-%{release}
